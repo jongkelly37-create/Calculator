@@ -1,0 +1,52 @@
+/* General page styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator container */
+.calculator {
+    background: orange;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px red;
+}
+
+/* Display screen */
+.display {
+    background: black;
+    color: #0f0;
+    font-size: 2rem;
+    text-align: right;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    min-width: 220px;
+}
+
+/* Buttons grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+}
+
+/* Button style */
+.btn {
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: blue;
+}
